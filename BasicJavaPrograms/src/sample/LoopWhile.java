@@ -2,7 +2,7 @@ package sample;
 
 import java.util.Scanner;
 
-public class WhileLoop {
+public class LoopWhile {
 
 	public static void main(String args[]) {
 		int n;
@@ -12,7 +12,7 @@ public class WhileLoop {
 		n = in.nextInt();
 		while (n != 11) {
 			System.out.println("N = " + n);
-			n++;
+			n++; // increment inside loop
 		}
 		System.out.println("Out of loop");
 
