@@ -1,4 +1,4 @@
-package sample;
+package JavaConceptPrograms;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package sample;
+package BasicPrograms;
 
 public class ReverseNum {
 	// Java program to reverse a number

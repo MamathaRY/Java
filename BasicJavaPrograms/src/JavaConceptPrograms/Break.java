@@ -1,4 +1,4 @@
-package sample;
+package JavaConceptPrograms;
 
 public class Break {
 
