@@ -2,24 +2,33 @@ package BasicPrograms;
 
 public class PrimeNumber {
 
+	static boolean isPrime(int n) {
+		if (n <= 1)
+			return false;
+
+		else if (n == 2 || n == 3)
+			return true;
+
+// It is navie method ... i.e., checking number less than N is multiple of it or not 
+
+		for (int i = 2; i < n; i++) {
+			if (n % i == 0)
+				return false;
+
+		}
+		return true;
+
+	}
+
 	public static void main(String args[]) {
-		int i, m = 0, flag = 0;
-		int n = 4;// it is the number to be checked
-		m = n / 2;
-		if (n == 0 || n == 1) {
-			System.out.println(n + " is not prime number");
-		} else {
-			for (i = 2; i <= m; i++) {
-				if (n % i == 0) {
-					System.out.println(n + " is not prime number");
-					flag = 1;
-					break;
-				}
-			}
-			if (flag == 0) {
-				System.out.println(n + " is prime number");
-			}
-		} // end of else
+		int n = 19;
+
+		if (isPrime(n))
+
+			System.out.println("Number is prime");
+
+		else
+			System.out.println("Number is not prime");
 	}
 
 }
