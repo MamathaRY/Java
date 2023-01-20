@@ -18,6 +18,7 @@ public class OddNumList {
 		n.add(30);
 		n.add(5);
 		n.add(20);
+		
 		if (OddNumber(n))
 			System.out.println("odd");
 		else
