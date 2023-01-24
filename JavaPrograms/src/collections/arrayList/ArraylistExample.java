@@ -2,7 +2,7 @@ package collections.arrayList;
 
 import java.util.*;
 
-class ArrylistExample {
+class ArraylistExample {
 	public static void main(String args[]) {
 		ArrayList<String> list = new ArrayList<String>();// Creating arraylist
 		list.add("A1");// Adding object in arraylist
