@@ -1,4 +1,4 @@
-package collections;
+package collections.arrayList;
 
 import java.util.*;
 
@@ -11,9 +11,11 @@ class ArrylistExample {
 		list.add("D1");
 
 //Traversing list through Iterator
-		Iterator itr = list.iterator();
-		while (itr.hasNext()) {
-			System.out.println(itr.next());
-		}
+//		Iterator itr = list.iterator();
+//		while (itr.hasNext()) {
+//			System.out.println(itr.next());
+//		}
+		System.out.println(list);
+
 	}
 }
